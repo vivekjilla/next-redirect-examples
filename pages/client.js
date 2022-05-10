@@ -9,7 +9,7 @@ const ClientSide = ()=>{
         if(pathname == '/client' ){
             // with router.push the page may be added to history
             // you can prevent this behaviour using location.replace
-            Router.push('/target')
+            Router.push('https://www.google.com')
            //location.replace("/target")
         }
       });

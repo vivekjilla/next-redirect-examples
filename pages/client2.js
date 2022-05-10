@@ -11,7 +11,7 @@ const ClientSide2 = ()=>{
             // with router.push the page may be added to history
             // the browser on history back will  go back to this page and then forward again to the redirected page
             // you can prevent this behaviour using location.replace
-            Router.push('/target')
+            Router.push('https://www.google.com')
            //location.replace("/target")
         }else{
             setLoaded(true)

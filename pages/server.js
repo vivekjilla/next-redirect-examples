@@ -14,7 +14,7 @@ export async function getServerSideProps(context) {
     if (!data) {
         return {
             redirect: {
-                destination: 'www.google.com',
+                destination: 'https://www.google.com',
                 permanent: false,
             },
         }

@@ -3,7 +3,7 @@ module.exports = {
         return [
             {
                 source: '/config',
-                destination: '/target',
+                destination: 'https://www.google.com',
                 permanent: false,
             }
         ]
